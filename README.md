@@ -1,2 +1,2 @@
 # dotfiles
-The dotfiles for Pullmore's desktop environment.. 
+The dotfiles for Pullmore's desktop environment and workspace. 
