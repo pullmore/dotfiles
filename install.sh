@@ -43,6 +43,7 @@ mv PowerlineSymbols.otf ~/.fonts/
 mkdir -p ~/.config/fontconfig/conf.d/
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 fc-cache -vf ~/.fonts/
+# EDIT BASH RC TO INCLUDE CHANGES OR PULL BASHRC FROM GITHUB
 
 # misc applications
 snap install spotify
