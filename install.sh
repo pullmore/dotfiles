@@ -1,6 +1,6 @@
 #!/bin/bash
 # A Simple Shell Script to Install and Configure Ubuntu
-# Pullmore - 27/Aug/2019
+# Pullmore - 17/Nov/2019
 
 # quality of life
 sudo apt-get snap
