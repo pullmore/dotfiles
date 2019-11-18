@@ -22,6 +22,12 @@ sudo apt-get install screenfetch htop moc weechat
 # creative suite
 sudo apt-get install kdenlive inkscape gimp librecad 
 
+# install OBS
+sudo apt-get install ffmpeg
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt-get update
+sudo apt-get install obs-studio
+
 # programming languages 
 sudo apt-get install python gcc
 
@@ -38,7 +44,7 @@ sudo apt install python-pip
 pip install powerline-shell #DIDNT WORK. BE SURE TO EDIT
 wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
 wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
-#make sure to create a .fonts directory if it doesn't exist yet! mkdir ~/.fonts
+# make sure to create a .fonts directory if it doesn't exist yet! mkdir ~/.fonts
 mv PowerlineSymbols.otf ~/.fonts/
 mkdir -p ~/.config/fontconfig/conf.d/
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
@@ -47,4 +53,12 @@ fc-cache -vf ~/.fonts/
 
 # misc applications
 snap install spotify
+
+# wine install
+sudo dpkg --add-architecture i386 
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo apt-key add winehq.key
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main'
+sudo apt update
+sudo apt install --install-recommends winehq-staging
 
