@@ -1,9 +1,9 @@
 #!/bin/bash
-# A Simple Shell Script to Install and Configure Ubuntu
-# Pullmore - 17/Nov/2019
+# Notes to Install and Configure Ubuntu
+# Pullmore - 12/Jan/2020
 
 # quality of life
-sudo apt-get snap
+sudo apt-get install snap
 
 # icon theme and tweak tool
 sudo add-apt-repository ppa:numix/ppa
@@ -41,7 +41,9 @@ rm -rf gnome-terminal-colors-solarized
 
 # installs powerline-shell
 sudo apt install python-pip
-pip install powerline-shell #DIDNT WORK. BE SURE TO EDIT
+pip install powerline-shell #Worked this time
+
+
 wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
 wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
 # make sure to create a .fonts directory if it doesn't exist yet! mkdir ~/.fonts
