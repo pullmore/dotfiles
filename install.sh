@@ -64,3 +64,5 @@ sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco mai
 sudo apt update
 sudo apt install --install-recommends winehq-staging
 
+# other quality of life
+sudo apt-get install uzip
